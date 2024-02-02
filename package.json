@@ -1,0 +1,15 @@
+{
+  "name": "power-pages-paypal",
+  "description": "Sample Node.js web app to integrate PayPal Standard Checkout in Power Pages",
+  "version": "1.0.0",
+  "main": "server/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2"
+  }
+}
